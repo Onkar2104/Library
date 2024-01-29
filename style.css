@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(home\ page.png);
+    background-position: bottom(30px);
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+h1:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+.navbar{
+    height: 65px;
+    background-color: #354f52;
+    background: transparent;
+    color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+/* .nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shiksha.com%2Fcollege%2Fjspm-s-bhagwant-institute-of-technology-maharashtra-other-63371&psig=AOvVaw1HtPk_dpOJ0foXPOcKnHHa&ust=1706188289508000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjT7OeM9oMDFQAAAAAdAAAAABAD);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px; 
+}*/
+
+
+.sec-navba{
+    height: 30px;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-right: 33%;
+    background-color:#415a77;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.sec-navbar a{
+    /* color: white; */
+}
+
+#home{
+    color: white;
+    display: flex;
+    font-style: 1rem;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    text-decoration: none
+}
+
+#home:hover{
+    background-color: #2f3e46;
+    border-radius: 5px;
+    font-size: 110%;
+    border: 2px solid #2f3e46;
+    /* text-decoration: underline; */
+}
+
+.content{
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    justify-content:space-evenly;
+    line-height: 50px;
+}
+
+#nnn{
+    font-weight: normal;
+    padding-left: 40%;
+    /* padding-right: 10%; */
+    text-decoration: underline;
+}
+
+.info{
+    /* padding-left: 40%;
+    padding-right: 20px;
+    padding-top: 7px;
+    margin-top: 7%;
+    background-color: red; */
+    /* height: 30px;
+    width: 30%; */
+    margin-left: 35%;
+    margin-right: 35%;
+    /* background-color:#f69f48; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#info1{
+    height: 30px;
+    width: 80%;
+    margin-right: 10px;
+    color: black;
+    /* display: flex; */
+    font-style: 1rem;
+    padding-top: 2.5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    margin-right: 50px; 
+    background-color:white;  
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 2000px rgba(0, 0, 0, 0.1); 
+} 
+
+#info1:hover{
+    background-color: orange;
+}
+
+#info2{
+    height: 30px;
+    width: 15%;
+    margin-right: 10px;
+    color: black;
+    /* display: flex; */
+    font-style: 1rem;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    margin-right: 50px;  
+    background-color:white;  
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 2000px rgba(0, 0, 0, 0.1); 
+} 
+
+#info2:hover{
+    background-color: orange;
+}
+
+.img{
+    margin-left: 42%;
+    padding-top: 20px;
+}
+
+
