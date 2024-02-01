@@ -64,10 +64,6 @@ h1:hover{
     margin-top: 5px;
 }
 
-.sec-navbar a{
-    /* color: white; */
-}
-
 #home{
     color: white;
     display: flex;
@@ -175,4 +171,37 @@ h1:hover{
     padding-top: 20px;
 }
 
+/* Footer */
 
+footer{
+    margin-top:15px ;
+}
+.foot-panel a{
+    color: white;
+    text-decoration: none;
+}
+.foot-panel{
+    color: white;
+    background-color: rgb(35, 39, 43);
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+.foot{
+    font-weight: bold;
+}
+
+ul p{
+    display: block;
+    margin-top: 20px;
+}
+
+ul p:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
