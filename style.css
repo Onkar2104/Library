@@ -6,6 +6,8 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     background: url(home\ page.png);
     background-position: bottom(30px);
     background-position: center bottom;
@@ -30,29 +32,9 @@ h1:hover{
     width: 100%;
 }
 
-/* .nav-logo{
-    height: 50px;
-    width: 100px;
-}
-
-.logo{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shiksha.com%2Fcollege%2Fjspm-s-bhagwant-institute-of-technology-maharashtra-other-63371&psig=AOvVaw1HtPk_dpOJ0foXPOcKnHHa&ust=1706188289508000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjT7OeM9oMDFQAAAAAdAAAAABAD);
-    background-size: cover;
-    height: 50px;
-    width: 100px;
-    color: black;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    font-size: 0.85rem;
-    width: 80%;
-    margin-bottom: 25px; 
-}*/
-
-
 .sec-navba{
     height: 30px;
-    width: 45%;
+    width: 80vh;
     margin-left: 27.5%;
     margin-right: 33%;
     background-color:#415a77;
@@ -84,6 +66,8 @@ h1:hover{
 }
 
 .content{
+    display: flex;
+    flex-direction: column;
     padding-left: 35%;
     padding-right: 35%;
     padding-top: 30px;
