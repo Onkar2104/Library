@@ -150,26 +150,62 @@ h1:hover{
     background-color: orange;
 }
 
+
+.infoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: overline;
+}
+
+.infoo2{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.infoo2 span{
+    font-weight: normal;
+}
+
 .img{
     margin-left: 42%;
     padding-top: 20px;
 }
 
+.img2{
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-attachment: fixed;
+    border-top: 4px solid #fb6f92;
+}
+
 /* Footer */
 
 footer{
-    margin-top:15px ;
+    /* margin-top:15px ; */
 }
 .foot-panel a{
-    color: white;
+    color: #002456;
     text-decoration: none;
 }
 .foot-panel{
-    color: white;
-    background-color: rgb(35, 39, 43);
+    color: #002456;
+    background-color: #f5f9fc;
+    /* background-color: #bde0fe; */
     height:300px;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 10px dotted;
+    border-left: 8px dotted;
+    border-right: 8px dotted;
+    border-color: #ffafcc;
 }
 
 ul{
@@ -187,5 +223,5 @@ ul p{
 
 ul p:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: #fb6f92;
 }
