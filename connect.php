@@ -8,7 +8,7 @@
     $ConfirmPass = $_POST['ConfirmPass'];
 
 	// Database connection
-	$conn = new mysqli('localhost','root','','mydb');
+	$conn = new mysqli('localhost','root','','library');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
@@ -18,7 +18,19 @@
 		$execval = $stmt->execute();
 		echo $execval;
 		echo "Registration successfully...";
-		$stmt->close();
-		$conn->close();
+		// $stmt->close();
+		// $conn->close();
 	}
+// $host="localhost";
+// $port=3306;
+// $socket="";
+// $user="root";
+// $password="";
+// $dbname="";
+
+// $con = new mysqli($host, $user, $password, $dbname, $port, $socket)
+// 	or die ('Could not connect to the database server' . mysqli_connect_error());
+
+// //$con->close();
+
 ?>
