@@ -28,18 +28,6 @@ h1:hover {
     width: 100%;
 }
 
-/* .sec-navba {
-    height: 30px;
-    width: 70%;
-    margin: 0 auto;
-    background-color: #415a77;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-decoration: none;
-    margin-top: 5px;
-} */
 
 .sec-navba {
     height: 30px;
@@ -54,11 +42,10 @@ h1:hover {
     margin-top: 5px;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .sec-navba {
         width: 90%;
-        font-size: 0.8rem; /* Adjust the font size for smaller screens */
+        font-size: 0.8rem;
     }
 }
 
@@ -77,16 +64,6 @@ h1:hover {
     border: 2px solid #2f3e46;
 }
 
-/* .content {
-    display: flex;
-    flex-direction: column;
-    padding: 5% 30%;
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-    line-height: 50px;
-} */
-
 .content {
     display: flex;
     flex-direction: column;
@@ -97,12 +74,12 @@ h1:hover {
     line-height: 50px;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     .content {
-        padding: 5% 10%; /* Adjust padding for smaller screens */
-        font-size: medium; /* Adjust font size for smaller screens */
-        line-height: 30px; /* Adjust line height for smaller screens */
+        padding: 5% 10%;
+        font-size: medium; 
+        line-height: 30px;
     }
 }
 
@@ -176,67 +153,6 @@ h1:hover {
 }
 
 /* Footer */
-/* 
-.foot-panel a {
-    color: #002456;
-    text-decoration: none;
-}
-
-.foot-panel {
-    color: #002456;
-    background-color: #f5f9fc;
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border-bottom: 10px dotted;
-    border-left: 8px dotted;
-    border-right: 8px dotted;
-    border-color: #ffafcc;
-}
-
-ul {
-    margin: 20px;
-}
-
-.foot {
-    font-weight: bold;
-}
-
-ul p {
-    display: block;
-    margin-top: 20px;
-}
-
-ul p:hover {
-    text-decoration: underline;
-    text-decoration-color: #fb6f92;
-}
-
-@media (max-width: 768px) {
-    .sec-navba {
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .content {
-        padding: 10px;
-    }
-
-    .info {
-        margin: 20px 5%;
-    }
-
-    .img {
-        margin: 20px 5%;
-    }
-
-    .foot-panel {
-        flex-direction: column;
-    }
-} */
-
 
 .foot-panel a {
     color: #002456;
@@ -276,7 +192,7 @@ ul p:hover {
     text-decoration-color: #fb6f92;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     .foot-panel {
         flex-direction: column;
