@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 100px;
+    background-color: #edede9;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(jspm.jpg);
+    background-size: cover;
+    height: 100px;
+    max-width: 100%;
+}
+
+.nav-name{
+    margin-left: 15px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid red;
+}
+
+.home{
+    display: flex;
+    margin-left: 200px;
+}
+
+.home a{
+    color: black;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 1.2rem;
+}
+
+.home a:hover{
+    text-decoration:2px rgb(4, 158, 9) underline;
+}
+
+.store{
+    /* background-image: url(nav.jpg); */
+    margin-top: 2px;
+    background-color: #90e0ef;
+    height: 400px;
+    background-size: cover;
+}
