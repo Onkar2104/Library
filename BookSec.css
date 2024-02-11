@@ -6,20 +6,19 @@
 
 .navbar{
     height: 100px;
-    /* background-color: #edede9; */
     display: flex;
     align-items: center;
 }
 
 .nav-logo{
-    height: 100px;
-    width: 100px;
+    height: 9.9vh;
+    width: 6.8vw;
 }
 
 .logo{
     background-image: url(photos/jspm.jpg);
     background-size: cover;
-    height: 100px;
+    height: 14.5vh;
     max-width: 100%;
 }
 
@@ -55,8 +54,8 @@
 .store{
     background-image: url(photos/book_sehlf..jpg);
     height: 450px;
+    width: 198.4vh;
     background-size: cover;
-    /* display: flex; */
     justify-content:center;
     align-items: flex-start;
 }
@@ -101,9 +100,9 @@
     /* align-items: center; */
     justify-content: center;
     width: 620px;
-    height: 40px;
+
+    height: 6vh;
     border-radius: 4px;
-    /* margin-top: 50px; */
     margin-left: 30%;
 }
 
@@ -131,18 +130,14 @@
     background-color: rgb(255, 175, 0);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    /* background-color: #0f1111; */
 }
 
 
 
-/* Sec */
+
 
 body1{
     min-height: 100vh;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 
@@ -161,11 +156,10 @@ body1{
     margin-left: 8px;
     margin-top: 20px;
     border-radius: 3%;
-    /* justify-content: cente; */
 }
 
 .card_image .card_img{
-    height: 300px;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
     border-radius: 3%;
@@ -178,17 +172,15 @@ body1{
 
 }
 
-/* Footer */
+
 
 .foot-panel a {
     color: #ff0000;
     text-decoration: none;
-    /* background-image: url(5853.jpg); */
 }
 
 .foot-panel {
     color: #ff0000;
-    /* background-color: #f5f9fc; */
     background: url(photos/enjoying.jpg);
     background-size: cover;
     height: 525px;
@@ -224,7 +216,9 @@ ul p:hover {
 
 
 @media (max-width: 768px) {
-    .foot-panel {
+    .foot-panel,
+    .navbar,
+    .store {
         flex-direction: column;
         align-items: center;
         text-align: center;
