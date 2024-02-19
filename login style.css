@@ -175,3 +175,21 @@ color: transparent;
     text-decoration:double underline;
     color: #0d95e9;
 }
+
+.index #text{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+#text p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#text a p:hover{
+    text-decoration:double underline;
+    /* color: #0d95e9; */
+    cursor: pointer;
+}
