@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+}
+
+#titleImg{
+    border-radius: 50%;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    background: url(home\ page.png);
+    background: url(photos/home_page.png);
     background-position: center bottom;
     background-attachment: fixed;
 }
@@ -40,7 +43,9 @@ h1:hover {
     justify-content: space-evenly;
     text-decoration: none;
     margin-top: 5px;
+    border-radius: 4px;
 }
+
 
 @media (max-width: 768px) {
     .sec-navba {
@@ -62,6 +67,14 @@ h1:hover {
     border-radius: 5px;
     font-size: 110%;
     border: 2px solid #2f3e46;
+}
+
+#home:hover p a .sub-sec{
+    display: block;
+    position: absolute;
+    background-color: #415a77;
+    margin-top: 125px;
+    margin-left: 550px;
 }
 
 .content {
@@ -107,7 +120,6 @@ h1:hover {
     font-style: 1rem;
     padding: 2.5px 10px 5px;
     text-decoration: none;
-    /* margin-right: 50px; */
     background-color: white;
     border: 2px solid;
     border-radius: 10px;
@@ -141,7 +153,6 @@ h1:hover {
 }
 
 .img {
-    /* margin: 20px 10%; */
     text-align: center;
     padding: 20px;
 }
