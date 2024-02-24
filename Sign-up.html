@@ -8,39 +8,44 @@
     <link rel="stylesheet" href="sign-up.css">
 </head>
 <body>
+    <form name="SignUp" method="post" action="connect.php">
     <div class="index">
+        
         <h1>SignUp</h1>
         <div class="input-box">
             <i class="fa-solid fa-circle-user"></i>
-            <input type="text" placeholder="Name" required>
+            <input type="text" name ="Name" placeholder="Name" required>
         </div>
         <div class="input-box">
             <i class="fa-regular fa-clipboard"></i>
-            <input type="text" placeholder="Enrollment no." required>
+            <input type="text" name ="Library Id" placeholder="Library Id" required>
         </div> 
         <div class="input-box">
             <i class="fa-solid fa-envelope"></i>
-            <input type="email" placeholder="Email" required>
+            <input type="email" name ="Email" placeholder="Email" required>
         </div>
         <div class="input-box">
             <i class="fa-solid fa-phone"></i>
-            <input type="text" placeholder="Phone No." required>
+            <input type="text" name ="Contact" placeholder="Phone No." required>
         </div>
         <div class="input-box">
             <i class="fa-solid fa-lock"></i>
-            <input type="password" placeholder="Password"  required>
+            <input type="password" name ="Password" placeholder="Password"  required>
         </div>
         <div class="input-box">
             <i class="fa-solid fa-lock"></i>
-            <input type="confirm password" placeholder="Confirm Password"  required>
+            <input type="confirm password" name ="ConfirmPass" placeholder="Confirm Password"  required>
         </div>
      
         <!-- <button type="submit" class="btn">Sign Up</button> -->
-        <a class="btn" href="Login.html"><span class="btnspan">Sign Up</span></a>
+        <a class="btn" name ="submit" href="Login.html"><span class="btnspan">Sign Up</span></a>
+        <!-- <a class="btn" name ="submit" ><span class="btnspan">Sign Up</span></a> -->
 
         <div class="register-link">
              <p>Already have an account? <a href="Login.html">Login</a></p>
         </div>
+        
     </div>
+    </form>
 </body>
 </html>
