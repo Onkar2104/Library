@@ -2,6 +2,7 @@
     margin: 0;
     font-family: arial;
     border: border-box;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -24,6 +25,7 @@
 
 .nav-name{
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .border{
@@ -51,13 +53,56 @@
     text-decoration:2px rgb(4, 158, 9) underline;
 }
 
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    /* margin-right: 35px; */
+    font-size: 1.2rem;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    /* margin-top: 3.3px; */
+    border-radius: 3px;
+    display: none;
+    position: absolute;
+    background-color: #415a77;
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6); */
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #2f3e46;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #2f3e46;} */
+
 .store{
     background-image: url(photos/book_sehlf..jpg);
     height: 450px;
     width: 198.4vh;
+    /* width: 100%;
+    height: auto; */
     background-size: cover;
     justify-content:center;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 .panel{
@@ -92,7 +137,7 @@
 
 .book_sec{
     background-image: linear-gradient(#c8e4f5, #c9fcfd);
-    height: 900px;
+    height: auto;
 }
 
 .search{
@@ -100,7 +145,6 @@
     /* align-items: center; */
     justify-content: center;
     width: 620px;
-
     height: 6vh;
     border-radius: 4px;
     margin-left: 30%;
@@ -143,12 +187,13 @@ body1{
 
 .sec_branch{
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 30px;
     font-weight: 700;
     font-size: 1.375rem;
+    text-decoration: underline;
 }
 
-.card_image{
+/* .card_image{
     display: flex;
     position: relative;
     height: 10%;
@@ -170,13 +215,74 @@ body1{
     display: flex;
     flex-direction: column;
 
-}
+} */
+
+.gallery {
+    border: 1.5px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    /* height: auto; */
+    height: 45vh;
+    /* margin-top: 20px; */
+    border: 1.5px solid #ccc;
+  }
+
+  .gallery img:hover{
+    border: 1px solid #777;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+    /* font-weight: 600; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  
+  /* * {
+    box-sizing: border-box;
+  } */
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    box-shadow: 0, 0, 0, 0.9 black;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
 .foot-panel a {
     color: #ff0000;
     text-decoration: none;
+    /* margin-top: 50px; */
 }
 
 .foot-panel {
@@ -187,7 +293,8 @@ body1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border-top:3px solid black ;
+    border-top:1px solid black ;
+    margin-top: 10px;
     /* border-bottom: 10px dotted;
     border-left: 8px dotted;
     border-right: 8px dotted;
@@ -216,13 +323,15 @@ ul p:hover {
 
 
 @media (max-width: 768px) {
+    .responsive,
     .foot-panel,
-    .navbar,
-    .store {
+    .navbar {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         text-align: center;
         height: auto;
+        /* width: auto; */
     }
 
     ul {
@@ -231,5 +340,17 @@ ul p:hover {
 
     ul p {
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .store{
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        justify-content: space-between;
+        text-align: center; 
+        width: 100%;
+        height: 90vh;
     }
 }
