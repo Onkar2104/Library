@@ -23,6 +23,13 @@
     max-width: 100%;
 }
 
+@media (max-width: 768px){
+    .nav-logo,
+    .logo{
+        display: none;
+    }
+}
+
 .nav-name{
     margin-left: 15px;
     cursor: pointer;
